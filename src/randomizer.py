@@ -1,7 +1,7 @@
 import random
 
 def randomizer(l):
-    if isinstance(l,list)==True:
+    if isinstance(l,list):
         random.shuffle(l)
         return l
     else:
