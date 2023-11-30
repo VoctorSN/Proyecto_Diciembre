@@ -9,3 +9,4 @@ def randomizer(l):
 
 if __name__ == "__main__":
     print(randomizer([1,23,52,4,23,123,1]))
+    # Para que el codigo funcione este print tiene que dar una lista desordenada de estos elementos
