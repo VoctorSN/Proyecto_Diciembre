@@ -1,8 +1,15 @@
 import subprocess
 
 def vlc_conector(urls_random):
-    comando=["C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"] + urls_random
-    subprocess.run(comando, check=False)
+    try:
+        comando=["C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"] + urls_random
+        subprocess.run(comando, check=False)
+    except FileNotFoundError:
+        try:
+            comando=["C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe"] + urls_random
+            subprocess.run(comando, check=False)
+        except FileNotFoundError:
+            return "No se encuentra el vlc.exe"
 
 
 if __name__ == "__main__":

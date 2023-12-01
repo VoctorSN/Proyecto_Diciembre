@@ -8,5 +8,7 @@ def randomizer(l):
         return "No list detected"
 
 if __name__ == "__main__":
-    print(randomizer([1,23,52,4,23,123,1]))
+    from find_xspf import find_xspf
+    from lector_dir import lector_dir
+    print(randomizer(lector_dir(find_xspf())))
     # Para que el codigo funcione este print tiene que dar una lista desordenada de estos elementos
