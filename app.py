@@ -3,5 +3,5 @@ from src.lector_dir import lector_dir
 
 def app():
     return randomizer(lector_dir())
-
-print(app())
+if __name__ == "__main__":
+    print(app())

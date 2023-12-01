@@ -1,13 +1,8 @@
 import xml.etree.ElementTree as ET
 def lector_dir():
-    tree = ET.parse('canciones.xspf')
-    root=tree.getroot()
-    for child in root:
-        if child.tag.endswith("trackList"):
-            for track in child:
-                if track.tag.endswith("track"):
-                    for element in track:
-                        if element.tag.endswith("title"):
-                            print(element.text)
-    
-lector_dir()
+    return [element.text for element in 
+            list(ET.parse('canciones.xspf').getroot().iter("{http://xspf.org/ns/0/}location"))]
+
+if __name__ == "__main__":
+    print(lector_dir())
+    # Si esta bien deberia dar las localizaciones de las canciones del fichero xspf
