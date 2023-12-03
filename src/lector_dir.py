@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+
 def lector_dir(files):
     locations=[]
     if len(files)==0:
