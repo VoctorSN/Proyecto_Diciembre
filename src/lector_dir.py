@@ -1,12 +1,14 @@
 import xml.etree.ElementTree as ET
+import sys
 
 def lector_dir(files):
     locations=[]
     if len(files)==0:
-        return "No hay fichero xspf"
+        print("No hay fichero xspf")
+        sys.exit()
     for file in files:
-        for element in list(ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location")):
-            locations.append(element.text)
+        elements = ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location")
+        locations.extend([element.text for element in elements])
     return locations
 
 if __name__ == "__main__":

@@ -1,16 +1,24 @@
 import subprocess
+import sys
 
 def vlc_conector(urls_random):
-    try:
-        comando=["C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"] + urls_random
-        subprocess.run(comando, check=False)
-    except FileNotFoundError:
+    possible_urls=["C:\\Program Filess\\VideoLAN\\VLC\\vlc.exe","C:\\Program Filess (x86)\\VideoLAN\\VLC\\vlc.exe"]
+    for tries in possible_urls:
+        executed=False
         try:
-            comando=["C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe"] + urls_random
+            comando=[tries] + urls_random
             subprocess.run(comando, check=False)
+            executed=True
         except FileNotFoundError:
-            return "No se encuentra el vlc.exe"
+            pass
+    if not executed:
+        print("No se encuentra el vlc.exe")
+        sys.exit()
 
 
 if __name__ == "__main__":
-    vlc_conector(['file:///D:/P/python/Proyecto_diciembre/songs/A_Virtual_Friend_-_Clair_Obscur.mp3', 'file:///D:/P/python/Proyecto_diciembre/songs/Boukmanflow_-_Does_she_not.mp3', 'file:///D:/P/python/Proyecto_diciembre/songs/Mejor%20cancion.mp3', 'file:///D:/P/python/Proyecto_diciembre/songs/PUETO_PA_LO_MIO_RECORDS_-_YO_NO_ENTIENDO_-_PUETO_PA_LO_MIO_RECORDS_Presenta_-_-_NEYCOM.mp3'])
+    from find_xspf import find_xspf
+    from lector_dir import lector_dir
+    from randomizer import randomizer
+    # Para que funcione tendria que reproducir las canciones ya desordenadas
+    vlc_conector(randomizer(lector_dir(find_xspf())))
