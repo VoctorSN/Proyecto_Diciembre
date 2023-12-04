@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Lista de reprodución</title>
+	<trackList>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
+			<title>Against The Moon</title>
+			<creator>Iceage</creator>
+			<album>Plowing Into The Field of Love</album>
+			<trackNum>10</trackNum>
+			<annotation>www.bubaneemusic2.com</annotation>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Iceage/Plowing%20Into%20The%20Field%20of%20Love/art</image>
+			<duration>207531</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
+			<title>California Über Alles</title>
+			<creator>Dead Kennedys</creator>
+			<album>Fresh Fruit for Rotting Vegetables [Bonus Disc] Disc 1</album>
+			<trackNum>8</trackNum>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Dead%20Kennedys/Fresh%20Fruit%20for%20Rotting%20Vegetables%20%5BBonus%20Disc%5D%20Disc%201/art</image>
+			<duration>180380</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
+			<title>Elvis&#39; Flaming Star</title>
+			<creator>Pond</creator>
+			<album>Man It Feels Like Space Again</album>
+			<trackNum>2</trackNum>
+			<annotation>.:: 1914 ::.</annotation>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Pond/Man%20It%20Feels%20Like%20Space%20Again/art.jpg</image>
+			<duration>205221</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
+			<title>Headless</title>
+			<creator>Hella</creator>
+			<album>Tripper (MP3)</album>
+			<trackNum>1</trackNum>
+			<annotation>www.NewAlbumReleases.net</annotation>
+			<duration>275830</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
+			<title>King Kunta</title>
+			<creator>Kendrick Lamar</creator>
+			<album>To Pimp A Butterfly</album>
+			<trackNum>3</trackNum>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Kendrick%20Lamar/To%20Pimp%20A%20Butterfly/art.jpg</image>
+			<duration>234762</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
+			<title>Seattle Party</title>
+			<creator>Chastity Belt</creator>
+			<album>No Regerts</album>
+			<trackNum>2</trackNum>
+			<annotation>Visit http://chastity-belt.bandcamp.com</annotation>
+			<image>attachment://picture0.jpg</image>
+			<duration>276469</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/songs/A_Virtual_Friend_-_Clair_Obscur.mp3</location>
+			<title>Clair Obscur</title>
+			<creator>A Virtual Friend</creator>
+			<annotation>https://www.jamendo.com cc_standard</annotation>
+			<duration>225151</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/songs/Boukmanflow_-_Does_she_not.mp3</location>
+			<title>Does she not</title>
+			<creator>Boukmanflow</creator>
+			<annotation>https://www.jamendo.com cc_standard</annotation>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/arturl/5290954875adb571a52bd57a05f265c6/art</image>
+			<duration>178337</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/songs/Mejor%20cancion.mp3</location>
+			<duration>237818</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/songs/PUETO_PA_LO_MIO_RECORDS_-_YO_NO_ENTIENDO_-_PUETO_PA_LO_MIO_RECORDS_Presenta_-_-_NEYCOM.mp3</location>
+			<title>YO NO ENTIENDO - PUETO PA LO MIO RECORDS Presenta - - NEYCOM</title>
+			<creator>PUETO PA LO MIO RECORDS</creator>
+			<annotation>https://www.jamendo.com cc_standard</annotation>
+			<duration>178729</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+	</extension>
+</playlist>
