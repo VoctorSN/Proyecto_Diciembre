@@ -6,8 +6,6 @@ def randomizer(unrandom_urls):
     if isinstance(unrandom_urls,list):
         random.shuffle(unrandom_urls)
         return unrandom_urls
-    print("No list detected")
-    return None
 
 if __name__ == "__main__":
     from find_xspf import find_xspf
