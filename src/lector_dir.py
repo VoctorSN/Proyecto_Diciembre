@@ -6,14 +6,13 @@ def lector_dir(files):
     files_not_located=0
     files_located=0
     if len(files)==0:
-        print("No hay fichero xspf")
+        print("No hay ficheros xspf")
         return None
     for file in files:
-        elements = ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location")
-        for element in elements:
-            if len(element.text)<=8:
+        for element in ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location"):
+            if len(element.text.replace("%20"," "))<=8:
                 files_not_located+=1
-            elif os.path.exists(element.text[8:]):
+            elif os.path.exists(element.text.replace("%20"," ")[8:]):
                 locations.append(element.text)
                 files_located+=1
             else:

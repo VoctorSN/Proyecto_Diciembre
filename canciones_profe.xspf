@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
-	<title>Lista de reproducción</title>
+	<title>Lista de reprodución</title>
 	<trackList>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
 			<title>Against The Moon</title>
 			<creator>Iceage</creator>
 			<album>Plowing Into The Field of Love</album>
 			<trackNum>10</trackNum>
 			<annotation>www.bubaneemusic2.com</annotation>
-			<image>file:///C:/Users/victo/AppData/Roaming/vlc/art/artistalbum/Iceage/Plowing%20Into%20The%20Field%20of%20Love/art</image>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Iceage/Plowing%20Into%20The%20Field%20of%20Love/art</image>
 			<duration>207531</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>0</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
 			<title>California Über Alles</title>
 			<creator>Dead Kennedys</creator>
 			<album>Fresh Fruit for Rotting Vegetables [Bonus Disc] Disc 1</album>
 			<trackNum>8</trackNum>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Dead%20Kennedys/Fresh%20Fruit%20for%20Rotting%20Vegetables%20%5BBonus%20Disc%5D%20Disc%201/art</image>
 			<duration>180380</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>1</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
 			<title>Elvis&#39; Flaming Star</title>
 			<creator>Pond</creator>
 			<album>Man It Feels Like Space Again</album>
 			<trackNum>2</trackNum>
 			<annotation>.:: 1914 ::.</annotation>
-			<image>file:///C:/Users/victo/AppData/Roaming/vlc/art/artistalbum/Pond/Man%20It%20Feels%20Like%20Space%20Again/art.jpg</image>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Pond/Man%20It%20Feels%20Like%20Space%20Again/art.jpg</image>
 			<duration>205221</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
 			<title>Headless</title>
 			<creator>Hella</creator>
 			<album>Tripper (MP3)</album>
@@ -52,19 +53,19 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
 			<title>King Kunta</title>
 			<creator>Kendrick Lamar</creator>
 			<album>To Pimp A Butterfly</album>
 			<trackNum>3</trackNum>
-			<image>file:///C:/Users/victo/AppData/Roaming/vlc/art/artistalbum/Kendrick%20Lamar/To%20Pimp%20A%20Butterfly/art.jpg</image>
+			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Kendrick%20Lamar/To%20Pimp%20A%20Butterfly/art.jpg</image>
 			<duration>234762</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>4</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
 			<title>Seattle Party</title>
 			<creator>Chastity Belt</creator>
 			<album>No Regerts</album>

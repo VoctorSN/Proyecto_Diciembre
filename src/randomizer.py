@@ -1,5 +1,4 @@
 import random
-import sys
 
 def randomizer(unrandom_urls):
     if not unrandom_urls:
