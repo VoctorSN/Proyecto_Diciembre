@@ -8,7 +8,7 @@ def randomizer(unrandom_urls):
         random.shuffle(unrandom_urls)
         return unrandom_urls
     print("No list detected")
-    sys.exit()
+    return None
 
 if __name__ == "__main__":
     from find_xspf import find_xspf

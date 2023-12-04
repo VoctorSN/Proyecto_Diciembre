@@ -11,12 +11,13 @@ def lector_dir(files):
     for file in files:
         elements = ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location")
         for element in elements:
-            if os.path.exists(element.text[8:]):
+            if len(element.text)<=8:
+                files_not_located+=1
+            elif os.path.exists(element.text[8:]):
                 locations.append(element.text)
                 files_located+=1
             else:
                 files_not_located+=1
-                continue
     print("Existian ",files_located+files_not_located," enlaces, de los cuales ",files_located," se han detectado y ",files_not_located," no se han detectado en tu dispositivo")
     return locations
 
