@@ -10,7 +10,7 @@ def test_archivos_profexspf():
 def test_prueba_mala():
     assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/pruebamala.txt" not in lector_dir(find_xspf())
 def test_menos_de_8_con_espacios():
-    assert "%20%20%20%20" not in lector_dir(find_xspf())
+    assert r"%20%20%20%20" not in lector_dir(find_xspf())
 def test_menos_de_8():
     assert "nollega" not in lector_dir(find_xspf())
 
