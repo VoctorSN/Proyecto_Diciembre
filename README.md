@@ -6,5 +6,4 @@ requirements
 arquitectura
 Instrucciones de uso
 Instrucciones de instalacion
-gitflow
 HACER MARKER
