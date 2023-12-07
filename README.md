@@ -7,5 +7,4 @@ arquitectura
 Instrucciones de uso
 Instrucciones de instalacion
 gitflow
-HACER MARKERS
-HISTORIAS DE USUARIO
+HACER MARKER

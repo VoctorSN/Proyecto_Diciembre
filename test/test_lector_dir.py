@@ -2,7 +2,10 @@ from src.lector_dir import lector_dir
 from src.find_xspf import find_xspf
 
 def test_0_files():
-    assert lector_dir([])==None
+    assert lector_dir([]) is None
+
+def test_files_is_none():
+    assert lector_dir(find_xspf("patata/files.xspf")) is None
     
 def test_archivos_cancionesxspf():
     assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/Boukmanflow_-_Does_she_not.mp3" in lector_dir(find_xspf())
