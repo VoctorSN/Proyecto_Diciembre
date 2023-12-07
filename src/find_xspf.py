@@ -1,12 +1,17 @@
 import os
 
-def find_xspf():
-    dir_xspf=input("Introduce la ruta de la carpeta de los xspf, si esta carpetas es la carpeta Proyecto_Diciembre simplemente pulsa ENTER ")
+def find_xspf(dir_xspf=""):
     if dir_xspf=="":
         return [file for file in os.listdir() if file.endswith(".xspf")]
-    files=[dir_xspf+"/"+file for file in os.listdir(dir_xspf) if file.endswith(".xspf") and os.path.exists(dir_xspf+"/"+file)]
-    return files
+    try:
+        directorio=os.listdir(dir_xspf.replace("\\","/"))
+        return [dir_xspf.replace("\\","/")+"/"+file for file in directorio if file.endswith(".xspf") and os.path.exists(dir_xspf+"/"+file)]
+    except FileNotFoundError:
+        print("Esta ruta no existe")
+        return None
+    except NotADirectoryError:
+        print("Esto es un archivo no un directorio")
+        return None
 
 if __name__ == "__main__":
     print(find_xspf())
-    
