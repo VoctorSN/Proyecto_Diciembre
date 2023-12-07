@@ -5,7 +5,7 @@ from src.find_xspf import find_xspf
 import sys
 
 def app():
-    vlc_conector(randomizer(lector_dir(find_xspf())))
+    vlc_conector(randomizer(lector_dir(find_xspf())),"C:/Program Files (x86)/VideoLAN/VLC/vlc.exe")
     sys.exit()
 
 if __name__ == "__main__":
