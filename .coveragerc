@@ -1,0 +1,6 @@
+[run]
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
+        
+# Este fichero hace que en el report d coverage no se contemplen las lineas de if __name__ == "__main__"
