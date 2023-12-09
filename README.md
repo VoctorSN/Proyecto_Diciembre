@@ -2,7 +2,7 @@
 ## Víctor Sánchez Nogueira 1ºDAM
 
 clockify
-
+![Tox flow](./clockify.png)
 
 
 arquitectura
@@ -19,7 +19,8 @@ Instrucciones de uso
 -Desde el cmd
 --Dirigete al direcotorio Proyecto_Diciembre
 --Ejecuta la app con python3
---puedes
+--Puedes elegir no darle parametros para que el programa busque los xspf en el directorio de PROYECTO_DICIEMBRE o  ponerle la direccion del directorio padre de los ficheros xspf, ademas tendras que darle la direccion del vlc al programa com te dice la propia app al llamarla
+--La app te deevolvera mensajes si sale cualquier error de los recogidos y tambien te devolvera cuantas de las canciones del xspf se van a reproducir y cuantas no
 
 Dificultades y mejoras
 -Conventional Commits
