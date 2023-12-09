@@ -1,7 +1,7 @@
 import os
 
-def find_xspf(dir_xspf=""):
-    if dir_xspf=="":
+def find_xspf(dir_xspf="../"):
+    if dir_xspf=="../" or dir_xspf=="":
         return [file for file in os.listdir() if file.endswith(".xspf")]
     try:
         directorio=os.listdir(dir_xspf.replace("\\","/"))
