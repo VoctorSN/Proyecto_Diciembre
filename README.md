@@ -2,7 +2,7 @@
 ## Víctor Sánchez Nogueira 1ºDAM
 
 clockify
-![Tox flow](./clockify.png)
+![clockify](./Clockify.png)
 
 
 arquitectura
