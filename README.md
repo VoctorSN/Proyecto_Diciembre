@@ -1,22 +1,69 @@
-# Proyecto_Diciembre
-## Víctor Sánchez Nogueira 1ºDAM
+# Proyecto_Diciembre Víctor Sánchez Nogueira 1ºDAM
 
-clockify
+## Clockify:
+Estas son las horas que dediqué al proyecto y en que las gasté:
+
 ![clockify](./Clockify.png)
+No esta completamente actualizada ni estan todos los dias de trabajo pero esto es todo a lo que le hice recuento.
+
+<!-- arquitectura -->
 
 
-arquitectura
+## Instrucciones de instalacion
+
+1. Situate donde quieras crear la app:
+
+```bash
+$ cd C:\Users\nombredeusuario\Escritorio
+```
+
+2. Crea un directorio donde almacenar la app
+
+```bash
+$ mkdir Directorio
+```
+
+3. Situate en el directorio
+
+```bash
+$ cd Directorio
+```
+4. Instala python, pip3 y git:
+
+[Instala python en este enlace si no lo tienes descargado]https://www.python.org/downloads/
+
+```bash
+$ pip --version
+```
+Si lo tienes instalado saltate el siguiente paso si no:
+
+```bash
+$ python -m pip install
+```
+
+Ahora instala git y comprueba que lo tienes:
+
+```bash
+$ pip install git
+$ git --version
+```
 
 
-Instrucciones de instalacion
--Crea un directorio deonde almacenar la app
--Situate en el directorio
--clona el proyecto en el directorio
--Instala pip3
--Instala las dependencias
+5. clona el proyecto en el directorio
 
-Instrucciones de uso
--Desde el cmd
+```bash
+$ git clone https://github.com/VoctorSN/Proyecto_Diciembre.git
+```
+
+6. Instala las dependencias
+```bash
+$ pip install -r requirements.txt
+```
+
+
+## Instrucciones de uso
+
+1. Desde el cmd
 --Dirigete al direcotorio Proyecto_Diciembre
 --Ejecuta la app con python3
 --Puedes elegir no darle parametros para que el programa busque los xspf en el directorio de PROYECTO_DICIEMBRE o  ponerle la direccion del directorio padre de los ficheros xspf, ademas tendras que darle la direccion del vlc al programa com te dice la propia app al llamarla
