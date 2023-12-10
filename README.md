@@ -45,46 +45,7 @@ Coordina la ejecución secuencial de los módulos.
 
 
 Diagrama de Arquitectura:
-+-----------------------------+
-|   Módulo de Lectura XSPF    |
-|                             |
-|  [Leer XSPF]                |
-|  [Extraer Datos]            |
-+--------------+--------------+
-               |
-               v
-+--------------|--------------+
-|   Módulo de Extracción de   |
-|          Canciones          |
-|                             |
-|  [Procesar Datos]           |
-| [Obtener Lista de Canciones]|
-+--------------+--------------+
-               |
-               v
-+--------------|--------------+
-|  Módulo de Aleatorización   |
-|        de Canciones         |
-|                             |
-|  [Recibir Lista]            |
-|  [Aleatorizar Orden]        |
-+--------------+--------------+
-               |
-               v
-+--------------|--------------+
-|   Módulo de Control de VLC  |
-|                             |
-|  [Interactuar con VLC]      |
-|  [Reproducir Canciones]     |
-+--------------+--------------+
-               |
-               v
-+--------------|--------------+
-|       Módulo Principal      |
-|                             |
-|  [Importar Módulos]         |
-|  [Coordinar Ejecución]      |
-+-----------------------------+
+![Diagrama de Arquitectura](./Diagrama_de_Arquitectura.png)
 
 - Descripción:
 Cada módulo tiene una tarea específica y se comunica con el siguiente módulo para pasarle los datos o resultados necesarios para la siguiente etapa del proceso.
