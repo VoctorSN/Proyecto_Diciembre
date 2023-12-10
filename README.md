@@ -11,11 +11,8 @@ No está completamente actualizada ni están todos los días de trabajo, pero es
 
 ## Diagrama de componentes
 
-
-
-
-
-
+![Diagrama de Componenetes](./Diagrama_de_Componentes.png)
+- Cada modulo tiene la tarea de ser llamado por el modulo principal app y devolver una informacion a traves de unos argumentos que le da la app
 
 ## Arquitectura de la aplicación
 
@@ -45,21 +42,15 @@ Coordina la ejecución secuencial de los módulos.
 
 
 Diagrama de Arquitectura:
+
+
 ![Diagrama de Arquitectura](./Diagrama_de_arquitectura.png)
+
+
 
 - Descripción:
 Cada módulo tiene una tarea específica y se comunica con el siguiente módulo para pasarle los datos o resultados necesarios para la siguiente etapa del proceso.
 El `Módulo Principal` (app) importa los otros módulos y los llama secuencialmente para ejecutar el flujo completo del programa.
-
-
-
-
-
-
-
-
-
-
 
 
 ## Tecnologuías utilizadas
@@ -129,6 +120,10 @@ $ pip install -r requirements.txt
 
 
 ## Instrucciones de uso
+
+- Primero de todo:
+
+    Ve a vlc, selecciona la carpeta donde tienes tus canciones y exportala a donde quieras (preferentemente al directorio de PROYECTO_DICIEMBRE)
 
 - Desde el cmd:
 
