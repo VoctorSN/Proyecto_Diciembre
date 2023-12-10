@@ -3,7 +3,7 @@ from src.lector_dir import lector_dir
 from src.vlc_conector import vlc_conector
 from src.find_xspf import find_xspf
 import sys
-
+# C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe
 def app(xspf,VLC="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"):
     vlc_conector(randomizer(lector_dir(find_xspf(xspf))),VLC)
     sys.exit()

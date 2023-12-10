@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Lista de reproducción</title>
+	<trackList>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/%40TwoTiime%20%20-%20_Keep%20It%20Real_%20%20Shot%20By%20%40RPR%20%20%28Wsc%20Exclusive%20-%20Official%20Music%20Video%29.mp3</location>
+			<duration>175177</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Baby%20Keem%20-%20Honest%20%28Official%20Video%29.mp3</location>
+			<duration>373315</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Brujeria.mp3</location>
+			<duration>411720</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Calle%2013%20-%20Atrevete%20te%20te%20%28Explicit%29.mp3</location>
+			<duration>233496</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Cannabis.mp3</location>
+			<duration>265272</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/DaBaby%20-%20BOP%20on%20Broadway%20%28Hip%20Hop%20Musical%29.mp3</location>
+			<duration>367255</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/DaBaby%20-%20Goin%20Baby%20%5BOfficial%20Music%20Video%5D.mp3</location>
+			<duration>205392</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/DaBaby%20-%20Suge%20%28audio%29.mp3</location>
+			<duration>330360</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Kodak%20Black%20-%20ZEZE%20%28feat.%20Travis%20Scott%20%26%20Offset%29%20%5BOfficial%20Audio%5D.mp3</location>
+			<duration>225528</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Lil%20Baby%20-%20The%20Bigger%20Picture%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>513332</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Lil%20Tecca%20-%20Ransom%20%28Directed%20by%20Cole%20Bennett%29.mp3</location>
+			<duration>147931</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Lil%20Uzi%20Vert%20-%20Just%20Wanna%20Rock%20%5BOfficial%20Music%20Video%5D.mp3</location>
+			<duration>144624</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Lil%20Uzi%20Vert%20-%20Silly%20Watch%20%5BOfficial%20Audio%5D.mp3</location>
+			<duration>391944</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Migos%20-%20Stir%20Fry%20%28Official%20Video%29.mp3</location>
+			<duration>795872</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Moneybagg%20Yo%20-%20Time%20Today%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>311248</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Polo%20G%20-%20Martin%20%26%20Gina%20%28Official%20Video%29.mp3</location>
+			<duration>395880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Quality%20Control%2C%20Lil%20Baby%2C%20%26%20DaBaby%20-%20_Baby_%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>455400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/SchoolBoy%20Q%20-%20Collard%20Greens%20%28Explicit%29%20%28Official%20Music%20Video%29%20ft.%20Kendrick%20Lamar.mp3</location>
+			<duration>283950</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/White%20Tee.mp3</location>
+			<duration>211440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones/Young%20Nudy%20-%20Hell%20Shell%20%28Official%20Video%29.mp3</location>
+			<duration>376728</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+	</extension>
+</playlist>

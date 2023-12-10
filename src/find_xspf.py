@@ -14,4 +14,4 @@ def find_xspf(dir_xspf="../"):
         return None
 
 if __name__ == "__main__":
-    print(find_xspf())
+    print(find_xspf("canciones_xspf"))

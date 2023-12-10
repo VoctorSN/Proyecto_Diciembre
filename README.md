@@ -1,18 +1,35 @@
 # Proyecto_Diciembre Víctor Sánchez Nogueira 1ºDAM
 
+## Índice
+
+1. [Introducción](#introducción)
+2. [Clockify](#clockify)
+3. [Diagrama De Componentes](#diagrama-de-componentes)
+4. [Arquitectura De La Aplicación](#arquitectura-de-la-aplicación)
+5. [Tecnologías Utilizadas](#tecnologuías-utilizadas)
+6. [Instrucciones De Instalación](#instrucciones-de-instalación)
+7. [Instrucciones De Uso](#instrucciones-de-uso)
+8. [Dificultades Y Mejoras](#dificultades-y-mejoras)
+9. [Menciones Honorificas](#menciones-honorificas)
+
+## Introducción
+
+Este es un proyecto sugerido por el profesor Gelpi como tarea para evaluar el trimestre, este proyecto consiste en crear un programa, utilizando los recursos dados en clase, para que este nos busque una ruta a un fichero xspf, saque las canciones de este archivo, cree un  orden aleatorio, y se las pase a vlc para que este reproduzca las canciones existentes en un orden aleatorio.
+
 ## Clockify:
 Estas son las horas que dediqué al proyecto y en qué las gasté:
+
 
 ![clockify](./Clockify.png)
 No está completamente actualizada ni están todos los días de trabajo, pero esto es todo a lo que le hice recuento.
 
-<!-- arquitectura -->
-
 
 ## Diagrama de componentes
 
+
 ![Diagrama de Componenetes](./Diagrama_de_Componentes.png)
 - Cada modulo tiene la tarea de ser llamado por el modulo principal app y devolver una informacion a traves de unos argumentos que le da la app
+
 
 ## Arquitectura de la aplicación
 
@@ -40,7 +57,6 @@ Interactúa con `VLC` para reproducir las canciones.
 Importa los cuatro módulos anteriores.
 Coordina la ejecución secuencial de los módulos.
 
-
 Diagrama de Arquitectura:
 
 
@@ -51,7 +67,6 @@ Diagrama de Arquitectura:
 - Descripción:
 Cada módulo tiene una tarea específica y se comunica con el siguiente módulo para pasarle los datos o resultados necesarios para la siguiente etapa del proceso.
 El `Módulo Principal` (app) importa los otros módulos y los llama secuencialmente para ejecutar el flujo completo del programa.
-
 
 ## Tecnologuías utilizadas
 
@@ -106,7 +121,6 @@ $ pip install git
 $ git --version
 ```
 
-
 5. clona el proyecto en el directorio
 
 ```bash
@@ -117,7 +131,6 @@ $ git clone https://github.com/VoctorSN/Proyecto_Diciembre.git
 ```bash
 $ pip install -r requirements.txt
 ```
-
 
 ## Instrucciones de uso
 

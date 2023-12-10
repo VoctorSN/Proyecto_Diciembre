@@ -3,7 +3,7 @@
 	<title>Lista de reprodución</title>
 	<trackList>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
 			<title>Against The Moon</title>
 			<creator>Iceage</creator>
 			<album>Plowing Into The Field of Love</album>
@@ -16,7 +16,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
 			<title>California Über Alles</title>
 			<creator>Dead Kennedys</creator>
 			<album>Fresh Fruit for Rotting Vegetables [Bonus Disc] Disc 1</album>
@@ -28,7 +28,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
 			<title>Elvis&#39; Flaming Star</title>
 			<creator>Pond</creator>
 			<album>Man It Feels Like Space Again</album>
@@ -41,7 +41,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
 			<title>Headless</title>
 			<creator>Hella</creator>
 			<album>Tripper (MP3)</album>
@@ -53,7 +53,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
 			<title>King Kunta</title>
 			<creator>Kendrick Lamar</creator>
 			<album>To Pimp A Butterfly</album>
@@ -65,7 +65,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
+			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
 			<title>Seattle Party</title>
 			<creator>Chastity Belt</creator>
 			<album>No Regerts</album>

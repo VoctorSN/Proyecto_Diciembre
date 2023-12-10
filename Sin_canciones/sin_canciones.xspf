@@ -3,7 +3,7 @@
 	<title>Lista de reprodución</title>
 	<trackList>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/A_Virtual_Friend_-_%CE%B1%CE%BB%20Clair_Obscur.mp3</location>
+			<location>/songs/A_Virtual_Friend_-_%CE%B1%CE%BB%20Clair_Obscur.mp3</location>
 			<title>Clair Obscur</title>
 			<creator>A Virtual Friend</creator>
 			<annotation>https://www.jamendo.com cc_standard</annotation>
