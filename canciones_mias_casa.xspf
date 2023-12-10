@@ -3,7 +3,7 @@
 	<title>Lista de reproducción</title>
 	<trackList>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/A_Virtual_Friend_-_Clair_Obscur.mp3</location>
+			<location>/songs/A_Virtual_Friend_-_Clair_Obscur.mp3</location>
 			<title>Clair Obscur</title>
 			<creator>A Virtual Friend</creator>
 			<annotation>https://www.jamendo.com cc_standard</annotation>
@@ -13,7 +13,7 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/Boukmanflow_-_Does_she_not.mp3</location>
+			<location>/songs/Boukmanflow_-_Does_she_not.mp3</location>
 			<title>Does she not</title>
 			<creator>Boukmanflow</creator>
 			<annotation>https://www.jamendo.com cc_standard</annotation>
@@ -24,14 +24,14 @@
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/Mejor%20cancion.mp3</location>
+			<location>/songs/Mejor%20cancion.mp3</location>
 			<duration>237818</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:id>2</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/PUETO_PA_LO_MIO_RECORDS_-_YO_NO_ENTIENDO_-_PUETO_PA_LO_MIO_RECORDS_Presenta_-_-_NEYCOM.mp3</location>
+			<location>/songs/PUETO_PA_LO_MIO_RECORDS_-_YO_NO_ENTIENDO_-_PUETO_PA_LO_MIO_RECORDS_Presenta_-_-_NEYCOM.mp3</location>
 			<title>YO NO ENTIENDO - PUETO PA LO MIO RECORDS Presenta - - NEYCOM</title>
 			<creator>PUETO PA LO MIO RECORDS</creator>
 			<annotation>https://www.jamendo.com cc_standard</annotation>

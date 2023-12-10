@@ -12,15 +12,15 @@ def test_files_is_none():
     
 @pytest.mark.lector_dir
 def test_archivos_cancionesxspf():
-    assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/Boukmanflow_-_Does_she_not.mp3" in lector_dir(find_xspf())
+    assert "/songs/Boukmanflow_-_Does_she_not.mp3" in lector_dir(find_xspf())
             
 @pytest.mark.lector_dir            
 def test_archivos_profexspf():
-     assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3" in lector_dir(find_xspf())
+     assert "/biblioteca/against%20the%20moon.mp3" in lector_dir(find_xspf())
 
 @pytest.mark.lector_dir_not_in
 def test_prueba_mala():
-    assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/pruebamala.txt" not in lector_dir(find_xspf())
+    assert "/songs/pruebamala.txt" not in lector_dir(find_xspf())
 
 @pytest.mark.lector_dir_not_in
 def test_menos_de_8_con_espacios():
@@ -32,4 +32,4 @@ def test_menos_de_8():
 
 @pytest.mark.lector_dir
 def test_en_casa():
-    assert "file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/songs/Mejor%20cancion.mp3" in lector_dir(find_xspf())
+    assert "/songs/Mejor%20cancion.mp3" in lector_dir(find_xspf())

@@ -7,7 +7,7 @@ def test_find_one():
 
 @pytest.mark.find_xspf
 def test_find_in_canciones_xspf():
-    assert "C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones_xspf/canciones_mias.xspf" in find_xspf("C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/canciones_xspf")
+    assert "/canciones_xspf/canciones_mias.xspf" in find_xspf("/canciones_xspf")
 
 @pytest.mark.find_xspf
 def test_find_all_xspf():
