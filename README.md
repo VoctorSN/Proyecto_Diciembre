@@ -19,7 +19,76 @@ No está completamente actualizada ni están todos los días de trabajo, pero es
 
 ## Arquitectura de la aplicación
 
+### Componentes:
+- Find_xspf:
 
+Encuetra el fichero `XSPF`
+
+- lector_dir:
+
+Extrae las localizaciones de las canciones
+Verifica su existencia
+Procesa los datos extraídos para obtener la lista de canciones.
+
+- randomizer:
+
+Recibe la lista de canciones y la aleatoriza.
+
+- vlc_conector:
+
+Interactúa con `VLC` para reproducir las canciones.
+
+- `app`:
+
+Importa los cuatro módulos anteriores.
+Coordina la ejecución secuencial de los módulos.
+
+
+Diagrama de Arquitectura:
++-----------------------------+
+|   Módulo de Lectura XSPF    |
+|                             |
+|  [Leer XSPF]                |
+|  [Extraer Datos]            |
++--------------+--------------+
+               |
+               v
++--------------|--------------+
+|   Módulo de Extracción de   |
+|          Canciones          |
+|                             |
+|  [Procesar Datos]           |
+| [Obtener Lista de Canciones]|
++--------------+--------------+
+               |
+               v
++--------------|--------------+
+|  Módulo de Aleatorización   |
+|        de Canciones         |
+|                             |
+|  [Recibir Lista]            |
+|  [Aleatorizar Orden]        |
++--------------+--------------+
+               |
+               v
++--------------|--------------+
+|   Módulo de Control de VLC  |
+|                             |
+|  [Interactuar con VLC]      |
+|  [Reproducir Canciones]     |
++--------------+--------------+
+               |
+               v
++--------------|--------------+
+|       Módulo Principal      |
+|                             |
+|  [Importar Módulos]         |
+|  [Coordinar Ejecución]      |
++-----------------------------+
+
+- Descripción:
+Cada módulo tiene una tarea específica y se comunica con el siguiente módulo para pasarle los datos o resultados necesarios para la siguiente etapa del proceso.
+El `Módulo Principal` (app) importa los otros módulos y los llama secuencialmente para ejecutar el flujo completo del programa.
 
 
 
