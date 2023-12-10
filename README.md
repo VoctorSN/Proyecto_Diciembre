@@ -45,7 +45,7 @@ Coordina la ejecución secuencial de los módulos.
 
 
 Diagrama de Arquitectura:
-![Diagrama de Arquitectura](./Diagrama_de_Arquitectura.png)
+![Diagrama de Arquitectura](./Diagrama_de_arquitectura.png)
 
 - Descripción:
 Cada módulo tiene una tarea específica y se comunica con el siguiente módulo para pasarle los datos o resultados necesarios para la siguiente etapa del proceso.
