@@ -3,9 +3,9 @@ import random
 def randomizer(unrandom_urls):
     if not unrandom_urls:
         return None
-    if isinstance(unrandom_urls,list):
-        random.shuffle(unrandom_urls)
-        return unrandom_urls
+    assert isinstance(unrandom_urls,list)
+    random.shuffle(unrandom_urls)
+    return unrandom_urls
 
 if __name__ == "__main__":
     from find_xspf import find_xspf

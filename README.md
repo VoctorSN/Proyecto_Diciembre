@@ -9,6 +9,43 @@ No está completamente actualizada ni están todos los días de trabajo, pero es
 <!-- arquitectura -->
 
 
+## Diagrama de componentes
+
+
+
+
+
+
+
+## Arquitectura de la aplicación
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Tecnologuías utilizadas
+
+- Desarrollo del Programa:
+* `Python`: Lenguaje de programación principal para la lógica del programa.
+* Librerías de `Python`:
++ xml.etree.ElementTree: Para analizar el archivo `XSPF` y extraer los elementos de localización.
++ random: Para la aleatorización del orden de las canciones.
++ Subprocess: Para comunicarse con `VLC` y pasarle las localizaciones de las canciones.
++ os: Para encontrar el archivo xspf y comprobar la existencia de las rutas
+- Manipulación de Archivos:
+* `XSPF` (XML Shareable Playlist Format): Formato de archivo utilizado para definir listas de reproducción.
+- Reproducción de Música:
+* `VLC`: Reproductor multimedia que puede ser controlado desde la línea de comandos.
+
 ## Instrucciones de instalación
 
 1. Sitúate donde quieras crear la app:
