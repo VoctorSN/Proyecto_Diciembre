@@ -131,6 +131,7 @@ $ git clone https://github.com/VoctorSN/Proyecto_Diciembre.git
 ```bash
 $ pip install -r requirements.txt
 ```
+En el caso de que solo vayas a usar el programa para reproducir musica y no vayas a utilizar las herramientas de desarrollo del repositorio solo necesitas el vlc
 
 ## Instrucciones de uso
 
