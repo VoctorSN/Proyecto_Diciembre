@@ -19,5 +19,5 @@ def test_NotAFileError():
     
 @pytest.mark.find_xspf_Error
 def test_not_a_dir():
-    assert find_xspf("C:/Program Files (x86)/VideoLAN/VLC/vlc.exe")==None
+    assert find_xspf("C:/Program Files (x86)/VideoLAN/VLC/vlc.exe") is None
     

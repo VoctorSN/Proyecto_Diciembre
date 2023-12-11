@@ -10,10 +10,10 @@ def test_urls_random_none():
 
 @pytest.mark.Vlc_Error
 def test_executed():
-    assert vlc_conector(randomizer(lector_dir(find_xspf())))==None
+    assert vlc_conector(randomizer(lector_dir(find_xspf()))) is True
    
 @pytest.mark.Vlc 
 def test_not_found():
-    assert vlc_conector(randomizer(lector_dir(find_xspf())),"C:/Program Files (x86)/VideoLAN/VLC/vlc.exe")==True
+    assert vlc_conector(randomizer(lector_dir(find_xspf())),"C:/Patata/corcho.exe") is None
     
 

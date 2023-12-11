@@ -7,7 +7,7 @@ def test_len():
 
 @pytest.mark.randomizer_Error
 def test_randomizer_error():
-    assert randomizer([])==None
+    assert randomizer([]) is None
 
 @pytest.mark.randomizer
 def test_no_values_lost():

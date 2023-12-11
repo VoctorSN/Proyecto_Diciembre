@@ -1,6 +1,6 @@
 import subprocess
 
-def vlc_conector(urls_random,url_VLC="C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe"):
+def vlc_conector(urls_random,url_VLC="C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"):
     if not urls_random:
         return None
     try:
