@@ -15,4 +15,3 @@ def find_xspf(dir_xspf="../"):
 
 if __name__ == "__main__":
     print(find_xspf("canciones_xspf"))
-    find_xspf("C:/Program Files (x86)/VideoLAN/VLC/vlc.exe")
