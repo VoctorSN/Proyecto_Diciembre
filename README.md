@@ -199,3 +199,12 @@ Estas son las dificultades y las mejoras que podría haber implementado al proye
 2. `XploitU` - me ayudó con la logica y con librerias para el desarrollo de la app 
 3. [makigas](https://www.youtube.com/@makigas) - Conventional commits
 4. [programing5393](https://www.youtube.com/@programming5393) - requirements.txt
+
+
+
+
+
+
+<!-- coverage:  coverage run --source ./src -m pytest / coverage annotate -d ./coverage_annotation / coverage report -m
+
+  -->

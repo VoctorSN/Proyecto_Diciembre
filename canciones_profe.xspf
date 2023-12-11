@@ -3,7 +3,147 @@
 	<title>Lista de reprodución</title>
 	<trackList>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/%40TwoTiime%20%20-%20_Keep%20It%20Real_%20%20Shot%20By%20%40RPR%20%20%28Wsc%20Exclusive%20-%20Official%20Music%20Video%29.mp3</location>
+			<duration>175184</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Baby%20Keem%20-%20Honest%20%28Official%20Video%29.mp3</location>
+			<duration>373315</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Brujeria.mp3</location>
+			<duration>411720</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Calle%2013%20-%20Atrevete%20te%20te%20%28Explicit%29.mp3</location>
+			<duration>233496</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Cannabis.mp3</location>
+			<duration>265272</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/DaBaby%20-%20BOP%20on%20Broadway%20%28Hip%20Hop%20Musical%29.mp3</location>
+			<duration>367255</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/DaBaby%20-%20Goin%20Baby%20%5BOfficial%20Music%20Video%5D.mp3</location>
+			<duration>205392</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/DaBaby%20-%20Suge%20%28audio%29.mp3</location>
+			<duration>330360</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Kodak%20Black%20-%20ZEZE%20%28feat.%20Travis%20Scott%20%26%20Offset%29%20%5BOfficial%20Audio%5D.mp3</location>
+			<duration>225528</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Lil%20Baby%20-%20The%20Bigger%20Picture%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>513332</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Lil%20Tecca%20-%20Ransom%20%28Directed%20by%20Cole%20Bennett%29.mp3</location>
+			<duration>147931</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Lil%20Uzi%20Vert%20-%20Just%20Wanna%20Rock%20%5BOfficial%20Music%20Video%5D.mp3</location>
+			<duration>144624</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Lil%20Uzi%20Vert%20-%20Silly%20Watch%20%5BOfficial%20Audio%5D.mp3</location>
+			<duration>391944</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Migos%20-%20Stir%20Fry%20%28Official%20Video%29.mp3</location>
+			<duration>795872</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Moneybagg%20Yo%20-%20Time%20Today%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>311248</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Polo%20G%20-%20Martin%20%26%20Gina%20%28Official%20Video%29.mp3</location>
+			<duration>395880</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Quality%20Control%2C%20Lil%20Baby%2C%20%26%20DaBaby%20-%20_Baby_%20%28Official%20Music%20Video%29.mp3</location>
+			<duration>455400</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/SchoolBoy%20Q%20-%20Collard%20Greens%20%28Explicit%29%20%28Official%20Music%20Video%29%20ft.%20Kendrick%20Lamar.mp3</location>
+			<duration>283950</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/White%20Tee.mp3</location>
+			<duration>211440</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/canciones/Young%20Nudy%20-%20Hell%20Shell%20%28Official%20Video%29.mp3</location>
+			<duration>376728</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/against%20the%20moon.mp3</location>
 			<title>Against The Moon</title>
 			<creator>Iceage</creator>
 			<album>Plowing Into The Field of Love</album>
@@ -12,11 +152,11 @@
 			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Iceage/Plowing%20Into%20The%20Field%20of%20Love/art</image>
 			<duration>207531</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>0</vlc:id>
+				<vlc:id>20</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/California_Uber_Alles.mp3</location>
 			<title>California Über Alles</title>
 			<creator>Dead Kennedys</creator>
 			<album>Fresh Fruit for Rotting Vegetables [Bonus Disc] Disc 1</album>
@@ -24,11 +164,11 @@
 			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Dead%20Kennedys/Fresh%20Fruit%20for%20Rotting%20Vegetables%20%5BBonus%20Disc%5D%20Disc%201/art</image>
 			<duration>180380</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>1</vlc:id>
+				<vlc:id>21</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Elvis_%20Flaming%20Star.mp3</location>
 			<title>Elvis&#39; Flaming Star</title>
 			<creator>Pond</creator>
 			<album>Man It Feels Like Space Again</album>
@@ -37,11 +177,11 @@
 			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Pond/Man%20It%20Feels%20Like%20Space%20Again/art.jpg</image>
 			<duration>205221</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>2</vlc:id>
+				<vlc:id>22</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Headless.mp3</location>
 			<title>Headless</title>
 			<creator>Hella</creator>
 			<album>Tripper (MP3)</album>
@@ -49,11 +189,11 @@
 			<annotation>www.NewAlbumReleases.net</annotation>
 			<duration>275830</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>3</vlc:id>
+				<vlc:id>23</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/King_Kunta.mp3</location>
 			<title>King Kunta</title>
 			<creator>Kendrick Lamar</creator>
 			<album>To Pimp A Butterfly</album>
@@ -61,11 +201,11 @@
 			<image>file:///C:/Users/a23victorsn/AppData/Roaming/vlc/art/artistalbum/Kendrick%20Lamar/To%20Pimp%20A%20Butterfly/art.jpg</image>
 			<duration>234762</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>4</vlc:id>
+				<vlc:id>24</vlc:id>
 			</extension>
 		</track>
 		<track>
-			<location>file:///C:/Users/victo/Escritorio/Clase/PR/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
+			<location>file:///D:/P/python/Proyecto_Diciembre/biblioteca/Seattle_Party.flac</location>
 			<title>Seattle Party</title>
 			<creator>Chastity Belt</creator>
 			<album>No Regerts</album>
@@ -74,7 +214,7 @@
 			<image>attachment://picture0.jpg</image>
 			<duration>276469</duration>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>5</vlc:id>
+				<vlc:id>25</vlc:id>
 			</extension>
 		</track>
 	</trackList>
@@ -85,5 +225,25 @@
 		<vlc:item tid="3"/>
 		<vlc:item tid="4"/>
 		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+		<vlc:item tid="10"/>
+		<vlc:item tid="11"/>
+		<vlc:item tid="12"/>
+		<vlc:item tid="13"/>
+		<vlc:item tid="14"/>
+		<vlc:item tid="15"/>
+		<vlc:item tid="16"/>
+		<vlc:item tid="17"/>
+		<vlc:item tid="18"/>
+		<vlc:item tid="19"/>
+		<vlc:item tid="20"/>
+		<vlc:item tid="21"/>
+		<vlc:item tid="22"/>
+		<vlc:item tid="23"/>
+		<vlc:item tid="24"/>
+		<vlc:item tid="25"/>
 	</extension>
 </playlist>
