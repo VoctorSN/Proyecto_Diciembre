@@ -10,7 +10,7 @@ def test_urls_random_none():
 
 @pytest.mark.Vlc_Error
 def test_executed():
-    assert vlc_conector(randomizer(lector_dir(find_xspf()))) is True
+    assert vlc_conector(randomizer(lector_dir(find_xspf())))
    
 @pytest.mark.Vlc 
 def test_not_found():
