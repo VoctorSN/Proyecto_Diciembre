@@ -19,7 +19,6 @@ def lector_dir(files):
                 files_located+=1
             else:
                 files_not_located+=1
-                print(element.text.replace("%20"," ").replace("%26","&").replace("%28","(").replace("%29",")").replace("file:///","").replace("%40","@").replace("%2",",").replace("%5D","]").replace(",C",",").replace("%5B","["))
     print("Existian ",files_located+files_not_located," enlaces, de los cuales ",files_located," se han detectado y ",files_not_located," no se han detectado en tu dispositivo")
     return locations
 
