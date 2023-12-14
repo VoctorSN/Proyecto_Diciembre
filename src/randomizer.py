@@ -3,8 +3,10 @@ import random
 def randomizer(unrandom_urls):
     if not unrandom_urls:
         return None
+    lenght=len(unrandom_urls)
     assert isinstance(unrandom_urls,list)
     random.shuffle(unrandom_urls)
+    assert len(unrandom_urls)==lenght
     return unrandom_urls
 
 if __name__ == "__main__":

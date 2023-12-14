@@ -2,6 +2,7 @@ import xml.etree.ElementTree as ET
 import os.path
 
 def lector_dir(files):
+    traductor={"%20":" ","%26":"&","%28":"(","%29":")","%2C":",","%40":"@","%2":":","%5D":"]","%5B":"[","file:///":""}
     locations=[]
     files_not_located=0
     files_located=0
@@ -12,9 +13,10 @@ def lector_dir(files):
         return None
     for file in files:
         for element in ET.parse(file).getroot().iter("{http://xspf.org/ns/0/}location"):
-            if len(element.text.replace("%20"," "))<=8:
-                files_not_located+=1
-            elif os.path.exists(element.text.replace("%20"," ").replace("%26","&").replace("%28","(").replace("%29",")").replace("file:///","").replace("%40","@").replace("%2",",").replace("%5D","]").replace("%5B","[").replace(",C",",")):
+            ruta=element.text
+            for caracter,traduccion in traductor.items():
+                ruta=ruta.replace(caracter,traduccion)
+            if os.path.exists(ruta):
                 locations.append(element.text)
                 files_located+=1
             else:
